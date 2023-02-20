@@ -71,7 +71,7 @@ export default function Header() {
               className='fixed inset-0 z-10 overflow-y-auto bg-primary px-6 py-6 lg:hidden'
             >
               <div className='flex items-center justify-between'>
-                <a href='#' className='-m-1.5 p-1.5'>
+                <Link href='#' className='-m-1.5 p-1.5'>
                   <span className='sr-only'>Nginep</span>
                   <Image
                     src='/images/logo.png'
@@ -79,7 +79,7 @@ export default function Header() {
                     height={70}
                     alt='NGINEP'
                   />
-                </a>
+                </Link>
                 <button
                   type='button'
                   className='-m-2.5 rounded-md p-2.5 text-gray-700'

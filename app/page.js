@@ -117,7 +117,7 @@ export default function Home() {
         <SearchBar />
       </div>
       {/* Why you should choose us */}
-      <section className='bg-customGrey pt-[600px] lg:pt-72'>
+      <section className='bg-customGrey pt-[600px] lg:pt-96 xl:pt-64'>
         <div className='max-w-[1140px] mx-auto px-6 lg:px-8'>
           <h2 className='text-5xl text-black font-semibold font-display text-center'>
             Why You Should Choose Us
